@@ -1,110 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Məmmədli Sirac</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sirac Məmmədli - Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #333; color: white; padding: 20px; }
+        section { padding: 40px 20px; }
+        .container { max-width: 800px; margin: auto; }
+        footer { background: #333; color: white; padding: 10px; position: relative; bottom: 0; width: 100%; }
+    </style>
 </head>
 <body>
-    <h1 class="centerilize" id="headTitle">Məmmədli Sirac
-    </h1>
-    <ul class="centerilize nav">
-        <li class="nav-item"><a  href="#">Haqqımda</a></li> 
-        <li class="nav-item"><a  href="#">Proyektlərim</a></li>
-        <li  class="nav-item"><a href="#">Bacarıqlarım</a></li>
-        <li class="nav-item"><a  href="#">
-            <button onclick="toggleDropdown()">İstinadlar</button>
-            <ul
-              style="display: none; position: absolute; background: silver;"
-              id="dropdown"
-            >
-              <li><a href="">AzTU</a></li>
-              <li><a href="">Google</a></li>
-              <li><a href="">Facebook</a></li>
+    <header>
+        <h1>Sirac Məmmədli</h1>
+        <img src="https://th.bing.com/th/id/OIP._CW6isea_99S84Z6S_peLQAAAA?rs=1&pid=ImgDetMain" alt="Sirac Məmmədli" style="width: 40%; height: auto; max-height: 300px;">
+
+
+    </header>
+    
+    <section id="about" class="container">
+        <h2>Haqqımda</h2>
+        <p>Mən Sirac Məmmədli, Azərbaycan Texniki Universitetində İnformasiya Təhlükəsizliyi ixtisası üzrə təhsil alıram. İnformatika sahəsinə xüsusi marağım var və daim yeni texnologiyaları öyrənməyə çalışıram. Kiber təhlükəsizlik, proqramlaşdırma və sistemlərin qorunması kimi mövzular üzərində işləyirəm. Məqsədim, bu sahədə dərin biliklər qazanaraq texnologiyanın inkişafına töhfə verməkdir.</p>
+    </section>
+    
+    <section id="services" class="container">
+        <h2>Xidmətlər</h2>
+        <p>
+
+            <ul>
+                <li>
+                    Şəbəkənizin və sistemlərinizin təhlükəsizlik vəziyyətini analiz edərək zəiflikləri müəyyən edirəm. <br>
+
+                </li>
+                <li>
+                    SQL Injection, XSS, CSRF kimi hücumlara qarşı penetrasiya testləri aparıram. <br>
+
+                </li>
+                <li>
+
+                    Firewall və antivirus sistemlərinin effektivliyini yoxlayıram.
+
+                </li>
             </ul>
 
+
             
-        </a></li>
-        <li  class="nav-item"><a href="#">Əlaqə</a></li>
+        </p>
+    </section>
 
-    </ul>
-<img src="images/sirac.jpeg" class="centerilize-image" style="width: 200px; margin-top: 10px;" alt="">
-<h2 class="centerilize">Haqqımda</h2>
-<p>
-    Mən Sirac Məmmədli, Azərbaycan Texniki Universitetində İnformasiya Təhlükəsizliyi ixtisası üzrə təhsil alıram. İnformatika sahəsinə xüsusi marağım var və daim yeni texnologiyaları öyrənməyə çalışıram. Kiber təhlükəsizlik, proqramlaşdırma və sistemlərin qorunması kimi mövzular üzərində işləyirəm. Məqsədim, bu sahədə dərin biliklər qazanaraq texnologiyanın inkişafına töhfə verməkdir.
-</p>
+    <section id="skills" class="container">
+        <h2>Bacarıqlar</h2>
+        <ul>
+            <li>
+                Proqramlaşdırma dilləri: Python, JavaScript, HTML/CSS, PHP
 
-<h2 class="centerilize">Proyektlərim</h2>
-<p>
-    Proyektlərim
-
-    1. Kibertəhlükəsizlik üzrə simulyasiya layihəsi <br>
-    2. Python ilə şifrə generatoru və analiz vasitəsi <br>
-    3. Şəbəkə təhlükəsizliyi təhlili
-
-</p>
+            </li>
+ <li>
 
 
-<button id="left" class="centerilize-image"><</button>
-<button id="right" class="centerilize-image">></button>
-<p>
-    <div class="row">
-        <div class="column">
-          <img class="centerilize-image" id="main-image" src="images/tech.avif">
-        </div>
-
-</p>
-
-
-
-<h2 class="centerilize">Təcrübələrim</h2>
-<p >
-<strong>Fərdi İnformasiya Təhlükəsizliyi Araşdırmaları</strong>
-<br>
-Sosial mühəndislik, məlumat şifrələmə üsulları və DDoS hücumları ilə bağlı müstəqil araşdırmalar aparmışam.
-<br>
-  Virtual mühitlərdə təcrübə üçün Kali Linux və digər təhlükəsizlik paylamalarından istifadə etmişəm.
-<br>
-Təhlükəsizlik bloqları oxuyaraq və açıq resurslardan (Hack The Box, TryHackMe) yararlanaraq praktiki biliklərimi inkişaf etdirmişəm.
-
-
-</p>
+    SQL Injection, XSS, CSRF kimi hücumlara qarşı penetrasiya testləri aparıram.
 
 
 
 
-<h2 class="centerilize">Əlaqə</h2>
-<p>
-    Əlaqə nömrəsi : 0705097640 <br>
-    Contact Gmail : mammadlisirac4@gmail.com
-    
-    
-    
-</p>
+ </li>
+ <li>
+    Veb inkişafı: Frontend və backend proqramlaşdırma, SEO optimizasiyası, sürət və təhlükəsizlik təkmilləşdirmələri
 
 
 
+ </li>
+        </ul>
+    </section>
 
+    <section id="contact" class="container">
+        <h2>Əlaqə</h2>
+        <p>Əlaqə üçün: siracmemmedli@gmail.com</p>
+    </section>
 
-
-
-
-
-
+    <footer>
+        <p>&copy; 2025 Sirac Məmmədli. Bütün hüquqlar qorunur.</p>
+    </footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
-<script src="index.js"></script>
